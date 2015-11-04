@@ -1,0 +1,10 @@
+solve;
+
+printf "\nClusters:\n";
+for {j in 1..210} {
+   	printf "{";
+   	for {i in 1..210} {
+		if x[i,j]==1 then printf " %5i ", i;
+    };
+    printf "}\n"; 
+};
